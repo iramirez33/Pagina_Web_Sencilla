@@ -43,8 +43,9 @@
 
 .lateral{
     border: thin solid blue;
-    float: right;
-    width: 150px;
+    display: grid;
+    grid-column: auto;
+    width: 220px;
     margin: 0 100px 100px 0;
-    height: 400px;
+    height: 320px;
 }
